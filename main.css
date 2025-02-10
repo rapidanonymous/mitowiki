@@ -15,7 +15,6 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Linux Libertine', 'Georgia', 'Times New Roman', serif;
     font-weight: normal;
@@ -46,7 +45,7 @@ a:hover {
 }
 
 .navbar {
-    background-color: #ffffff;
+    background-color: #f8f9fa;
     padding: 10px;
     border-bottom: 1px solid #a2a9b1;
 }
@@ -68,7 +67,7 @@ a:hover {
     background-color: #f8f9fa;
     padding: 10px;
     font-size: 0.9em;
-    margin-left: 15px; /* 適度な余白を追加 */
+    margin-left: 15px;
 }
 
 .infobox th {
@@ -90,5 +89,8 @@ a:hover {
     margin-top: 20px;
     padding: 10px;
     border-top: 1px solid #a2a9b1;
-    background-color: #f8f9fa;
+    background-color: #eaecf0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
