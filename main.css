@@ -1,0 +1,92 @@
+body {
+    font-family: 'Linux Libertine', 'Georgia', 'Times New Roman', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #202122;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Linux Libertine', 'Georgia', 'Times New Roman', serif;
+    font-weight: normal;
+    color: #000;
+}
+
+h1 {
+    font-size: 1.8em;
+    border-bottom: 1px solid #a2a9b1;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    border-bottom: 1px solid #c8ccd1;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
+}
+
+a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 10px;
+    border-bottom: 1px solid #a2a9b1;
+}
+
+.navbar a {
+    margin-right: 15px;
+    color: #0645ad;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.infobox {
+    float: right;
+    width: 300px;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.infobox th {
+    background-color: #eaecf0;
+    text-align: left;
+    padding: 5px;
+    border-bottom: 1px solid #a2a9b1;
+}
+
+.infobox td {
+    padding: 5px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.footer {
+    font-size: 0.8em;
+    color: #54595d;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+}
